@@ -3,24 +3,30 @@
   - [] Containerize Webapps for CI/CD:
     - [ ] TOBI
       - [x] repo + container
+      - [] add secrets (to new webapps)
       - [] apache/nginx accessions
-      - [] CICD
-    - [x] FRIDA
+      - [] CICD (unrem paralellism)
+    - [] FRIDA
+      - [x] repo + container
+      - [] add secrets (to new webapps)
+      - [] apache/nginx accessions
+      - [] CICD (unrem paralellism)
+    - [] Climate-quick-guide (priority)
       - [x] repo + container
       - [] apache/nginx accessions
-      - [] CICD
-    - [] Climate-quick-guide (priority)
-      - [] repo + container
-      - [] apache/nginx accessions
-      - [] CICD
+      - [] CICD (unrem paralellism)
     - [] transition-sandbox
-    - [] WATA (priority)
-      - [] repo + container
+      - [x] repo + container
       - [] apache/nginx accessions
-      - [] CICD
+      - [] CICD (unrem paralellism)
+    - [] WATA (priority)
+      - [x] repo + container
+      - [] apache/nginx accessions
+      - [] CICD (unrem paralellism)
 
   - [] transfer WebApps (ubuntu 16/wsgi) to jornada-SWBAPPS(x.x.x.169)
     - dependencies: setup docker, nginx, certbot
+    - [] set up new limited user to run swarm
 
   - [] Migrate SWClimateHub maps (resolve vulnerability)
     - [] containerize Geoserver (JVM or Tomcat)
