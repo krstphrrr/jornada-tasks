@@ -40,6 +40,7 @@
     - [ ] migrate webapps from different projects and segregate by namespaces (low priority)
     - [ ] figure out how to make the cluster services externally available 
       - Traefik: outside of VM- ip address paradigm, how to route a cluster service through a specific domain 
+      - test PG migration, replication streams and persistent volumes
 
   - [ ] set up Graphana/prometheus monitoring
   - [ ] create private github action runners within jornada
