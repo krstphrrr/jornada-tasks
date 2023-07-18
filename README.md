@@ -1,12 +1,12 @@
 ## Jornada tasks -  2023-07-14
 
   - [ ] Containerize Webapps for CI/CD:
-    - [ ] TOBI
+    - [ ] TOBI 
       - [x] repo + container
       - [ ] add secrets (to new webapps)
       - [ ] apache/nginx conf
       - [ ] CICD (unrem paralellism)
-    - [ ] FRIDA
+    - [ ] FRIDA 
       - [x] repo + container
       - [ ] add secrets (to new webapps)
       - [ ] apache/nginx conf
@@ -29,7 +29,7 @@
     - [x] set up new limited user to run swarm
     - [x] clone locally
 
-  - [ ] Migrate SWClimateHub maps (resolve vulnerability)
+  - [ ] Migrate SWClimateHub maps (resolve vulnerability - High priority)
     - [ ] containerize Geoserver (JVM or Tomcat)
     - [ ] deploy containerized geoserver on K8S(x.x.x.140)
     - [ ] containerize Coombs webmap and deploy on K8s
