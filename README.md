@@ -30,7 +30,8 @@
     - [x] clone locally
 
   - [ ] Migrate SWClimateHub maps (resolve vulnerability - High priority)
-    - [ ] containerize Geoserver (JVM or Tomcat)
+    - [x] containerize Geoserver (JVM or Tomcat)
+      - commit [08f9ca0](https://github.com/krstphrrr/geoserver-port/commit/08f9ca0065755404d145be167678da8307ca27ce)
     - [ ] deploy containerized geoserver on K8S(x.x.x.140)
     - [ ] containerize Coombs webmap and deploy on K8s
     - [ ] migrate webapps layers on separate PG instance on K8s
