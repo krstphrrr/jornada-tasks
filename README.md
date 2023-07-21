@@ -29,11 +29,11 @@
     - [x] set up new limited user to run swarm
     - [x] clone locally
 
-  - [ ] Migrate SWClimateHub maps (resolve vulnerability - High priority)
+  - [x] Migrate SWClimateHub/asombro maps (resolve vulnerability - High priority)
     - [x] containerize Geoserver (JVM or Tomcat)
       - commit [08f9ca0](https://github.com/krstphrrr/geoserver-port/commit/08f9ca0065755404d145be167678da8307ca27ce)
     - [x] deploy containerized geoserver on jer (x.x.x.187)
-    - [ ] containerize Coombs webmap and deploy on jer
+    - [x] containerize Coombs webmap and deploy on jer
     - [x] migrate webapps layers on separate PG instance on jer
 
   - [ ] deploy minikube/micrik8s cluster on k8m(x.x.x.170), k8n1(x.x.x.171), k8n2(x.x.x.172) (low priority)
