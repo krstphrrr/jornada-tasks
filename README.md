@@ -32,9 +32,9 @@
   - [ ] Migrate SWClimateHub maps (resolve vulnerability - High priority)
     - [x] containerize Geoserver (JVM or Tomcat)
       - commit [08f9ca0](https://github.com/krstphrrr/geoserver-port/commit/08f9ca0065755404d145be167678da8307ca27ce)
-    - [ ] deploy containerized geoserver on K8S(x.x.x.140)
-    - [ ] containerize Coombs webmap and deploy on K8s
-    - [ ] migrate webapps layers on separate PG instance on K8s
+    - [x] deploy containerized geoserver on jer (x.x.x.187)
+    - [ ] containerize Coombs webmap and deploy on jer
+    - [x] migrate webapps layers on separate PG instance on jer
 
   - [ ] deploy minikube/micrik8s cluster on k8m(x.x.x.170), k8n1(x.x.x.171), k8n2(x.x.x.172) (low priority)
     - [ ] deploy using terraform (low priority)
