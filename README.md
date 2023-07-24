@@ -3,26 +3,26 @@
   - [ ] Containerize Webapps for CI/CD:
     - [ ] TOBI 
       - [x] repo + container
-      - [ ] add secrets (to new webapps)
+      - [x] add secrets (to new webapps)
       - [ ] apache/nginx conf
-      - [ ] CICD (unrem paralellism)
+      - [x] CICD (unrem paralellism)
     - [ ] FRIDA 
       - [x] repo + container
-      - [ ] add secrets (to new webapps)
+      - [x] add secrets (to new webapps)
       - [ ] apache/nginx conf
-      - [ ] CICD (unrem paralellism)
+      - [x] CICD (unrem paralellism)
     - [ ] Climate-quick-guide (priority)
       - [x] repo + container
       - [ ] apache/nginx conf
-      - [ ] CICD (unrem paralellism)
+      - [x] CICD (unrem paralellism)
     - [ ] transition-sandbox
       - [x] repo + container
       - [ ] apache/nginx conf
       - [ ] CICD (unrem paralellism)
-    - [ ] WATA (priority)
+    - [x] WATA (priority)
       - [x] repo + container
-      - [ ] apache/nginx conf
-      - [ ] CICD (unrem paralellism)
+      - [x] apache/nginx conf
+      - [x] CICD (unrem paralellism)
 
   - [x] transfer WebApps (ubuntu 16/wsgi) to jornada-SWBAPPS(x.x.x.169)
     - dependencies: setup docker, nginx, certbot
