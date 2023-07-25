@@ -49,7 +49,7 @@
 
 ## LDC tasks 2023-07-14
   - [ ] Finish main API auth doc 
-  - [ ] Ingest: 
-    - [ ] DurP (tall)
-    - [ ] postingest Durp
+  - [x] Ingest: 
+    - [x] DurP (tall)
+    - [x] postingest Durp
   - [ ] migrate python ingestion to Apache airflow (low priority)
