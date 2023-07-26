@@ -1,19 +1,19 @@
 ## Jornada tasks -  2023-07-14
 
   - [ ] Containerize Webapps for CI/CD:
-    - [ ] TOBI 
+    - [x] TOBI 
       - [x] repo + container
       - [x] add secrets (to new webapps)
-      - [ ] apache/nginx conf
+      - [x] apache/nginx conf
       - [x] CICD (unrem paralellism)
-    - [ ] FRIDA 
+    - [x] FRIDA 
       - [x] repo + container
       - [x] add secrets (to new webapps)
-      - [ ] apache/nginx conf
+      - [x] apache/nginx conf
       - [x] CICD (unrem paralellism)
-    - [ ] Climate-quick-guide (priority)
+    - [x] Climate-quick-guide (priority)
       - [x] repo + container
-      - [ ] apache/nginx conf
+      - [x] apache/nginx conf
       - [x] CICD (unrem paralellism)
     - [ ] transition-sandbox
       - [x] repo + container
