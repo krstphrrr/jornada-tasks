@@ -1,6 +1,13 @@
+## Tasks - 2023-07-26
+
+  - [x] disable test.jornada.nmsu.edu
+  - [x] resolve jornada-k8s.nmsu.edu/wp-json vulnerability
+  - [ ] remove duplicates from tall (lpi, gap, height) 
+
+
 ## Jornada tasks -  2023-07-14
 
-  - [ ] Containerize Webapps for CI/CD:
+  - [x] Containerize Webapps for CI/CD:
     - [x] TOBI 
       - [x] repo + container
       - [x] add secrets (to new webapps)
@@ -16,7 +23,7 @@
       - [x] apache/nginx conf
       - [x] CICD (unrem paralellism)
     - [ ] transition-sandbox
-      - [x] repo + container
+      - [ ] repo + container
       - [ ] apache/nginx conf
       - [ ] CICD (unrem paralellism)
     - [x] WATA (priority)
