@@ -1,3 +1,18 @@
+
+## 2024-04-05 
+- Security: migrating away from docker/swarm to remove the need to have root privileges on host machines to run the docker daemon. k8s, podman, buildah
+- AWS:
+- - exporting cloud formation manifests
+- - reviewing alternatives for the large pg instance
+- reviewing options for self-hosted runners as we can't grant external access to the github runners with the new firewall setup
+- review rap timeouts 
+- review the k8s host machines nginx conf to enable management of wp instances 
+- small node app that uses lambda (external fetcher) to report how externally accessible our sites are
+- - on-premise host runs app on cron. app creates a json of website uptime. if any of these are false, shoot single email ABOUT THE FALSE service to uptime account which is forwarded from there to others. 
+
+## 2024-04-04
+- updated the nginx configuration for both rap and the ldc fastify api at the on-premise servers. These two applications leverage a containerized nginx instance to serve an angular aplication compiled to hmlt and a companion nodejs app. in both cases, misconfiguration were taking the container instances down regularly, as they were running only a single nginx replica. 
+
 ## Tasks - 2023-07-26
 
   - [x] disable test.jornada.nmsu.edu
